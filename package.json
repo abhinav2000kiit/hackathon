@@ -1,5 +1,5 @@
 {
-  "homepage": "http://abhinav2000kiit.github.io/hackathon",
+  "homepage": "https://abhinav2000kiit.github.io/hackathon",
   "name": "hackathon",
   "version": "0.1.0",
   "private": true,
@@ -19,9 +19,9 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
+    "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
