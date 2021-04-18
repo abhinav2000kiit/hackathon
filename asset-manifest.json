@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/hackathon/static/css/main.602556fa.chunk.css",
+    "main.js": "/hackathon/static/js/main.64f4e9a5.chunk.js",
+    "main.js.map": "/hackathon/static/js/main.64f4e9a5.chunk.js.map",
+    "runtime-main.js": "/hackathon/static/js/runtime-main.7914cc55.js",
+    "runtime-main.js.map": "/hackathon/static/js/runtime-main.7914cc55.js.map",
+    "static/js/2.393d338f.chunk.js": "/hackathon/static/js/2.393d338f.chunk.js",
+    "static/js/2.393d338f.chunk.js.map": "/hackathon/static/js/2.393d338f.chunk.js.map",
+    "static/js/3.255d76d6.chunk.js": "/hackathon/static/js/3.255d76d6.chunk.js",
+    "static/js/3.255d76d6.chunk.js.map": "/hackathon/static/js/3.255d76d6.chunk.js.map",
+    "index.html": "/hackathon/index.html",
+    "static/css/main.602556fa.chunk.css.map": "/hackathon/static/css/main.602556fa.chunk.css.map",
+    "static/js/2.393d338f.chunk.js.LICENSE.txt": "/hackathon/static/js/2.393d338f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7914cc55.js",
+    "static/js/2.393d338f.chunk.js",
+    "static/css/main.602556fa.chunk.css",
+    "static/js/main.64f4e9a5.chunk.js"
+  ]
+}
