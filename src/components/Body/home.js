@@ -8,9 +8,9 @@ export default function Home() {
 
     const dispatch = useDispatch();
     const [value, setValue] = React.useState(0);
-    React.useEffect(() => {
-        dispatch(TableAction());
-    }, []);
+    // React.useEffect(() => {
+    //     dispatch(TableAction());
+    // }, []);
 
     const tableData = useSelector(state => { 
         console.log(state); 
