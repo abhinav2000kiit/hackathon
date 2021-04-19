@@ -12,12 +12,44 @@ export default function Home() {
     //     dispatch(TableAction());
     // }, []);
 
-    const tableData = useSelector(state => { 
-        console.log(state); 
-        console.log(state.tableData); 
-        console.log(state.tableData.tableData); 
-        return state.tableData.tableData;
-    });
+    // const tableData = useSelector(state => { 
+    //     console.log(state); 
+    //     console.log(state.tableData); 
+    //     console.log(state.tableData.tableData); 
+    //     return state.tableData.tableData;
+    // });
+
+    const tableData=[]
+    // const tempData = [{
+    //     Meetingid: "1",
+    //     MeetingName: "asdf",
+    //     Attendees: "123",
+    //     onDate: "2021-04-07",
+    //     StartTime: "09:56",
+    //     EndTime: "08:56",
+    // },{
+    //     Meetingid: "2",
+    //     MeetingName: "asdf",
+    //     Attendees: "123",
+    //     onDate: "2021-04-07",
+    //     StartTime: "09:56",
+    //     EndTime: "08:56",
+    // },{
+    //     Meetingid: "3",
+    //     MeetingName: "asdf",
+    //     Attendees: "123",
+    //     onDate: "2021-04-07",
+    //     StartTime: "09:56",
+    //     EndTime: "08:56",
+    // },{
+    //     Meetingid: "4",
+    //     MeetingName: "asdf",
+    //     Attendees: "123",
+    //     onDate: "2021-04-07",
+    //     StartTime: "09:56",
+    //     EndTime: "08:56",
+    // },]
+    // tableData.push([...tempData]);
 
     const [data, setData] = React.useState({
         Meetingid: "",
