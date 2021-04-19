@@ -10,7 +10,7 @@ html {
 .navbarOpen {
     background-color: #1E5F74;
     width: 20vw;
-    min-height: 100vh;
+    min-height: 50vh;
     padding: 4vh 0vw;
     color: white;
     transition-duration: 1s;
@@ -19,7 +19,7 @@ html {
 .navbarClosed {
     background-color: #1E5F74;
     width: 5vw;
-    min-height: 050vh;
+    min-height: 50vh;
     padding: 4vh 0vw;
     color: white;
     transition-duration: 1s;
