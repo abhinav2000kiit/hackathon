@@ -12,14 +12,14 @@ export default function Home() {
     //     dispatch(TableAction());
     // }, []);
 
-    // const tableData = useSelector(state => { 
-    //     console.log(state); 
-    //     console.log(state.tableData); 
-    //     console.log(state.tableData.tableData); 
-    //     return state.tableData.tableData;
-    // });
+    const tableData = useSelector(state => { 
+        // console.log(state); 
+        // console.log(state.tableData); 
+        // console.log(state.tableData.tableData); 
+        return state.tableData.tableData;
+    });
 
-    const tableData=[]
+    // const tableData=[]
     // const tempData = [{
     //     Meetingid: "1",
     //     MeetingName: "asdf",
@@ -164,7 +164,7 @@ export default function Home() {
                                     <input className="input" name="MeetingName" value={data.MeetingName} onChange={changeHandle} ></input>
                                 </td>
                                 <td className="col">
-                                    <input className="input" name="Attendees" value={data.Attendees} onChange={changeHandle} ></input>
+                                    <input className="input" type="number" name="Attendees" value={data.Attendees} onChange={changeHandle} ></input>
                                 </td>
                                 <td className="col">
                                     <input className="date" type="date" name="onDate" value={data.onDate} onChange={changeHandle} ></input>
