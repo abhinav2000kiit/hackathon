@@ -31,13 +31,13 @@ export default function about() {
                         <a href="https://www.pvot.in/">Pvot.in</a>: A React website and PWA development and maintenance with Redux state management and Hooks. Landing page of website design and development. A React website and PWA development and maintenance with Redux state management and Hooks. Landing page of website design and development.
                     </li>
                     <li>
+                        <a href="https://localwire.me/">Localwire.me</a>: Localwire is a local Odia online news media house. Made an ADMIN PANEL with React here. Also made APIs here. In admin panel, the main target was to use CHART.JS and properly map all their stats in a nice visualisations. Further cleared the bugs of their pre-existing site.
+                    </li>
+                    <li>
                         <a href="https://www.thewriteorder.com/">TheWriterOrder.com</a>: The Writer Order is a publishing house startup incubated by Startup Odisha. A basic website using BOOTSTRAP and combined it with Django backend. The main aim was basically to make a responsive website. Made UI/UX on Figma. Working on converting it into a PWA without using any framework.
                     </li>
                     <li>
                         <a href="https://github.com/abhinav2000kiit/tessellart-react">Tessellart.com</a>: A React Website first, by combining with django backend and using APIs to extract data. Further updating the website to PWA.
-                    </li>
-                    <li>
-                        <a href="https://localwire.me/">Localwire.me</a>: Localwire is a local Odia online news media house. Made an ADMIN PANEL with React here. Also made APIs here. In admin panel, the main target was to use CHART.JS and properly map all their stats in a nice visualisations. Further cleared the bugs of their pre-existing site.
                     </li>
                     <li>
                         <a href="https://github.com/abhinav2000kiit/KIITFEST6FULL">KIITFEST.org</a>:  A group project of my college annual fest website. My role was to give finishing touch to the frontend and also handling the transaction and its securities with PHP.
